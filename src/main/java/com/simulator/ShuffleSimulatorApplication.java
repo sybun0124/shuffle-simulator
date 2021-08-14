@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ShuffleSimulatorApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ShuffleSimulatorApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ShuffleSimulatorApplication.class, args);
+    }
 
 }
