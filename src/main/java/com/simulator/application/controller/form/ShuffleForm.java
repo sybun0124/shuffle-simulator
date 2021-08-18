@@ -22,8 +22,8 @@ public class ShuffleForm {
         private String id;
 
         private ShuffleType(String label, String id) {   //コンストラクタはprivateで宣言
-        this.label = label;
-        this.id = id;
+            this.label = label;
+            this.id = id;
         }
 
 

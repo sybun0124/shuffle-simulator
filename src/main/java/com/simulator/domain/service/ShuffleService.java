@@ -1,6 +1,7 @@
 package com.simulator.domain.service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -41,7 +42,7 @@ public class ShuffleService {
                 deck = doHindu(deck,shuffleForm.getNumber());
                 break;
             case RIFFLE:
-                deck = doRiffle(deck);
+                deck = doRiffle(deck,shuffleForm.getNumber());
                 break;
             default:
                 break;
@@ -88,7 +89,7 @@ public class ShuffleService {
         //乱数生成オブジェクトを初期化
         Random rand = new Random();
 
-    	//シャッフル時の最大の振れ幅。
+    	//シャッフル時の最大の誤差。
     	int maxErrorCount = cardList.size()/Integer.parseInt(env.getProperty("HINDU_ERROR_COUNT"));
     	for(int i = 0; i < count; i++) {
     	    //シャッフル実行事に誤差を設定。デッキを分割する際この数値の分だけどちらかに多く抜き取られる
@@ -109,9 +110,66 @@ public class ShuffleService {
 
     }
 
-    private List<String> doRiffle(List<String> cardList) {
+    private List<String> doRiffle(List<String> cardList,int count) {
+        //返却用リストの生成
+        List<String> shuffledList = new ArrayList<String>();
 
-        return cardList;
+        //乱数生成オブジェクトを初期化
+        Random rand = new Random();
+
+        //シャッフル時の最大の誤差。
+        int maxErrorCount = cardList.size()/Integer.parseInt(env.getProperty("HINDU_ERROR_COUNT"));
+
+        //束の下からカードを重ねていくためリストの順序を一度逆にする
+        Collections.reverse(cardList);
+
+        for(int i = 0; i < count; i++) {
+            //シャッフル実行事に誤差を設定。デッキを分割する際この数値の分だけどちらかに多く抜き取られる
+            //マイナス値を生成するために2倍し最大値を引く、かつ最大値自身も含めるため+1する
+            int errorCount = rand.nextInt(maxErrorCount * 2 + 1) - maxErrorCount;
+
+            //デッキを半分に分けた際の右手に持つリスト
+            List<String> rightList = cardList.subList(0, cardList.size()/2 + errorCount +1);
+
+            //デッキを半分に分けた際の左手に持つリスト
+            List<String> leftList = cardList.subList(cardList.size()/2 + errorCount, cardList.size());
+
+            int rightIndex = 0;
+            int leftIndex = 0;
+            //最終的なデッキサイズに変動はないことをループの終了条件とする
+            for(;shuffledList.size() < cardList.size();) {
+
+                //抜き取り切るまでは処理を続行
+                if(rightList.size() > rightIndex) {
+                    //カードを抜き取る幅。最低1枚から乱数値の分余分に抜き取る
+                    int pickCard = rand.nextInt(2) + 1;
+
+                    //抜き取り時の最終インデックスを算出。
+                    int toIndex =Math.min(rightIndex + pickCard, rightList.size());
+                    //カードを抜き取ってリストに入れる
+                    shuffledList.addAll(rightList.subList(rightIndex, toIndex));
+                    //抜き取った分インデックスを進める
+                    rightIndex = toIndex;
+                }
+                if(leftList.size() > leftIndex) {
+                    //カードを抜き取る幅。
+                    int pickCard = rand.nextInt(2) + 1;
+
+                    //抜き取り時の最終インデックスを算出。
+                    int toIndex = Math.min(leftIndex + pickCard, leftList.size());
+
+                    //カードを抜き取ってリストに入れる
+                    shuffledList.addAll(leftList.subList(leftIndex, toIndex));
+
+                    //抜き取った分インデックスを進める
+                    leftIndex = toIndex;
+                }
+            }
+            //逆にしたリストの順序を戻す
+            Collections.reverse(cardList);
+            Collections.reverse(shuffledList);
+        }
+        return shuffledList;
 
     }
 }
