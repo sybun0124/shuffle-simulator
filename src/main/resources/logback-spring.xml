@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+  <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+  <timestamp key="LOG_DATE" datePattern="yyyyMMdd"/>
+  <property name="LOG_FILE" value="/logs/application.log" />
+
+  <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <encoder>
+      <pattern>%d{yyyy/MM/dd HH:mm:ss} %-5level [%thread] - %msg%n</pattern>
+    </encoder>
+    <file>${LOG_FILE}</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${LOG_FILE}.%d{yyyyMMdd}</fileNamePattern>
+    </rollingPolicy>
+  </appender>
+
+<!-- 開発環境はDEBUGレベルまで出力する(MybatisがSQLログを流すため) -->
+  <springProfile name="dev">
+    <root level="DEBUG">
+      <appender-ref ref="CONSOLE"/>
+      <appender-ref ref="FILE"/>
+    </root>
+  </springProfile>
+
+<!-- 開発環境はINFOレベルまで出力する(MybatisがSQLログを流すため) -->
+  <springProfile name="stg">
+    <root level="INFO">
+      <appender-ref ref="CONSOLE"/>
+      <appender-ref ref="FILE"/>
+    </root>
+  </springProfile>
+</configuration>

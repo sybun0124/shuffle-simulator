@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.simulator.domain.repository.mapper.LogOutputMapper">
+  <!-- シミュレーション開始（デッキ取り込み時）ログ取得SQL -->
+  <select id="selectInitailLog" resultMap="initialLogResult" parameterType="java.lang.Integer">
+    select shuffle_session.SESSION_ID as sessionId,decklist.CARD_NAME as cardName,decklist.CARD_ORDER as cardOrder
+    from  shuffle_session
+    left OUTER JOIN decklist
+    on shuffle_session.INITIAL_DECKLIST_ID = decklist.DECKLIST_ID
+    where shuffle_session.SESSION_ID = #{sessionId}
+    order by decklist.CARD_ORDER asc;
+  </select>
+  <resultMap type="com.simulator.domain.model.InitialLog" id="initialLogResult">
+      <id column="sessionId" property="sessionId"/>
+      <collection property="cardList" ofType="com.simulator.domain.model.LogCardList" javaType="list">
+          <result column="cardName" property="cardName"/>
+          <result column="cardOrder"/>
+      </collection>
+  </resultMap>
+
+  <!-- シャッフル結果一覧ログ取得SQL -->
+  <select id="selectShuffleLogList" resultMap="shuffleLogResult" parameterType="java.lang.Integer">
+   select shuffle.SHUFFLE_ID as shuffleId,shuffle.SHUFFLE_TYPE as shuffleType,shuffle.DEAL_NUM as dealNum ,decklist.CARD_NAME as cardName,decklist.CARD_ORDER as cardOrder
+   from shuffle
+   left outer join decklist
+   on shuffle.DECKLIST_ID = decklist.DECKLIST_ID
+   where shuffle.SESSION_ID = #{sessionId}
+   order by shuffle.SHUFFLE_ID ASC,decklist.CARD_ORDER ASC;
+  </select>
+  <resultMap type="com.simulator.domain.model.ShuffleLog" id="shuffleLogResult">
+      <id column="shuffleId" property="shuffleId"/>
+      <result column="shuffleType" property="shuffleType"/>
+      <result column="dealNum" property="dealNum"/>
+      <collection property="cardList" ofType="com.simulator.domain.model.LogCardList" javaType="list">
+          <result column="cardName" property="cardName"/>
+          <result column="cardOrder"/>
+      </collection>
+  </resultMap>
+</mapper>

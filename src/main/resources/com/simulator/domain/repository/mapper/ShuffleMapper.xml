@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.simulator.domain.repository.mapper.ShuffleMapper">
+  <insert id="insert" parameterType="com.simulator.domain.model.mapper.Shuffle">
+    insert into shuffle (SHUFFLE_ID, SESSION_ID, DECKLIST_ID,
+      SHUFFLE_TYPE, DEAL_NUM, REGIST_DATE,
+      DELETE_FLG)
+    values (#{shuffleId,jdbcType=INTEGER}, #{sessionId,jdbcType=INTEGER}, #{decklistId,jdbcType=INTEGER},
+      #{shuffleType,jdbcType=VARCHAR}, #{dealNum,jdbcType=INTEGER}, #{registDate,jdbcType=TIMESTAMP},
+      #{deleteFlg,jdbcType=CHAR})
+  </insert>
+  <select id="selectNextShuffleId" resultType="java.lang.Integer">
+    select COALESCE(MAX(SHUFFLE_ID) + 1,1)
+    from shuffle
+  </select>
+</mapper>
