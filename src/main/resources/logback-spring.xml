@@ -24,7 +24,7 @@
   </springProfile>
 
 <!-- 開発環境はINFOレベルまで出力する(MybatisがSQLログを流すため) -->
-  <springProfile name="stg">
+  <springProfile name="prd">
     <root level="INFO">
       <appender-ref ref="CONSOLE"/>
       <appender-ref ref="FILE"/>

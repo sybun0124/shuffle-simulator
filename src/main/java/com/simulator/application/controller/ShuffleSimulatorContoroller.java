@@ -31,7 +31,7 @@ public class ShuffleSimulatorContoroller {
     private final SessionService sessionServise;
     private final ShuffleService shuffleServise;
     private final LogOutputService logOutputService;
-    //セッションオブジェクトはコンテナから取り出すが値は都度変更する
+    //セッションオブジェクトはコンテナから取り出すが値は都度変更するためfinalで宣言しない
     private UserSession userSession;
 
     /**

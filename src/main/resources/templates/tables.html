@@ -13,7 +13,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="js/shuffleForm.js"></script>
     </head>
-    <body class="sb-nav-fixed">
+    <body class="sb-nav-fixed bg-light">
         <div>
             <div>
                 <main>
@@ -27,7 +27,7 @@
                               <input type="file"  class="form-control" th:field="*{multipartFile}">
                             </div>
                             <div class="text-center">
-                              <input type="submit" value="アップロード" class="w-100">
+                              <input type="submit" value="デッキリスト取り込み" class="w-100">
                             </div>
                           </form>
                         </div>
@@ -36,7 +36,7 @@
                             <div class="card-body">
                               <table>
                                 <tr th:if="${validationError}" th:each="error : ${validationError}">
-                                  <td style="color: red;" th:text="${error}"></td>
+                                  <td class="text-danger" th:text="${error}"></td>
                                 </tr>
                               </table>
                               <form th:action="@{/shuffle}" th:object="${shuffleForm}" method="post">
@@ -55,7 +55,7 @@
                             <div class="card-header">
                               <h3 class="mt-1">シャッフル結果</h3>
                             </div>
-                            <div class="card-body" style="display:flex;" >
+                            <div class="card-body d-flex" >
                                 <table class="w-40">
                                     <thead>
                                         <tr>

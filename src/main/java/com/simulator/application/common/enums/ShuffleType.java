@@ -8,7 +8,7 @@ public enum ShuffleType {
     DEAL("ディールシャッフル", "1"),
     HINDU("ヒンドゥーシャッフル", "2"),
     RIFFLE("リフルシャッフル", "3"),
-    RIFFLE_PERFECT("リフルシャッフル（パーフェクト）", "3");
+    RIFFLE_PERFECT("リフルシャッフル（パーフェクト）", "4");
 
     private String label;
     private String value;
