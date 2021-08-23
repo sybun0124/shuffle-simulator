@@ -2,7 +2,6 @@
 Gilded Goose
 Gilded Goose
 Gilded Goose
-Gilded Goose
 Hydroid Krasis
 Hydroid Krasis
 Hydroid Krasis
@@ -62,62 +61,61 @@ Temple of Mystery
 
 [シャッフル1回目]
 [シャッフル種別:ディールシャッフル]
-[4枚区切り]
+[3枚区切り]
 Gilded Goose
+Hydroid Krasis
 Hydroid Krasis
 Paradise Druid
 Questing Beast
 Wicked Wolf
+Wicked Wolf
 Oko, Thief of Crowns
 Nissa, Who Shakes the World
+Disdainful Stroke
 Disdainful Stroke
 Once Upon a Time
 Breeding Pool
 Forest
 Forest
 Forest
+Forest
 Island
 Island
+Temple of Mystery
 Gilded Goose
 Hydroid Krasis
+Paradise Druid
 Paradise Druid
 Questing Beast
 Wicked Wolf
 Oko, Thief of Crowns
+Oko, Thief of Crowns
 Nissa, Who Shakes the World
 Disdainful Stroke
+Once Upon a Time
 Once Upon a Time
 Breeding Pool
 Forest
 Forest
 Forest
+Forest
+Island
 Island
 Temple of Mystery
 Gilded Goose
 Hydroid Krasis
 Paradise Druid
 Questing Beast
-Wicked Wolf
-Oko, Thief of Crowns
-Nissa, Who Shakes the World
-Disdainful Stroke
-Once Upon a Time
-Breeding Pool
-Forest
-Forest
-Forest
-Island
-Temple of Mystery
-Gilded Goose
-Hydroid Krasis
-Paradise Druid
 Questing Beast
 Wicked Wolf
 Oko, Thief of Crowns
 Nissa, Who Shakes the World
+Nissa, Who Shakes the World
 Disdainful Stroke
 Once Upon a Time
 Breeding Pool
+Breeding Pool
+Forest
 Forest
 Forest
 Forest
@@ -125,29 +123,49 @@ Island
 Temple of Mystery
 
 [シャッフル2回目]
-[シャッフル種別:リフルシャッフル（パーフェクト）]
+[シャッフル種別:ヒンドゥーシャッフル]
+Island
+Temple of Mystery
+Forest
+Forest
+Forest
+Forest
+Breeding Pool
+Once Upon a Time
+Breeding Pool
+Nissa, Who Shakes the World
+Disdainful Stroke
+Oko, Thief of Crowns
+Nissa, Who Shakes the World
+Questing Beast
+Wicked Wolf
+Questing Beast
+Hydroid Krasis
+Paradise Druid
+Temple of Mystery
 Gilded Goose
+Island
+Island
+Forest
+Forest
+Forest
+Forest
+Breeding Pool
+Once Upon a Time
+Once Upon a Time
 Gilded Goose
 Hydroid Krasis
 Hydroid Krasis
 Paradise Druid
-Paradise Druid
-Questing Beast
 Questing Beast
 Wicked Wolf
 Wicked Wolf
 Oko, Thief of Crowns
-Oko, Thief of Crowns
-Nissa, Who Shakes the World
 Nissa, Who Shakes the World
 Disdainful Stroke
 Disdainful Stroke
 Once Upon a Time
-Once Upon a Time
 Breeding Pool
-Breeding Pool
-Forest
-Forest
 Forest
 Forest
 Forest
@@ -155,602 +173,324 @@ Forest
 Island
 Island
 Temple of Mystery
-Island
 Gilded Goose
-Gilded Goose
-Hydroid Krasis
 Hydroid Krasis
 Paradise Druid
 Paradise Druid
 Questing Beast
-Questing Beast
-Wicked Wolf
 Wicked Wolf
 Oko, Thief of Crowns
 Oko, Thief of Crowns
 Nissa, Who Shakes the World
-Nissa, Who Shakes the World
 Disdainful Stroke
-Disdainful Stroke
-Once Upon a Time
-Once Upon a Time
-Breeding Pool
-Breeding Pool
-Forest
-Forest
-Forest
-Forest
-Forest
-Forest
-Island
-Island
-Temple of Mystery
-Temple of Mystery
 
 [シャッフル3回目]
-[シャッフル種別:リフルシャッフル（パーフェクト）]
-Gilded Goose
-Gilded Goose
-Gilded Goose
-Gilded Goose
-Hydroid Krasis
-Hydroid Krasis
-Hydroid Krasis
-Hydroid Krasis
-Paradise Druid
-Paradise Druid
-Paradise Druid
-Paradise Druid
-Questing Beast
-Questing Beast
-Questing Beast
-Questing Beast
-Wicked Wolf
-Wicked Wolf
-Wicked Wolf
-Wicked Wolf
-Oko, Thief of Crowns
-Oko, Thief of Crowns
-Oko, Thief of Crowns
+[シャッフル種別:ヒンドゥーシャッフル]
+Disdainful Stroke
 Oko, Thief of Crowns
 Nissa, Who Shakes the World
-Nissa, Who Shakes the World
-Nissa, Who Shakes the World
-Nissa, Who Shakes the World
-Disdainful Stroke
-Disdainful Stroke
-Disdainful Stroke
-Disdainful Stroke
-Once Upon a Time
-Once Upon a Time
-Once Upon a Time
-Once Upon a Time
-Breeding Pool
-Breeding Pool
-Breeding Pool
-Breeding Pool
-Forest
-Forest
-Forest
-Forest
-Forest
-Forest
-Forest
-Forest
-Forest
-Forest
-Forest
-Forest
-Island
-Island
-Island
+Wicked Wolf
+Oko, Thief of Crowns
+Paradise Druid
+Questing Beast
+Paradise Druid
+Gilded Goose
+Hydroid Krasis
 Island
 Temple of Mystery
-Temple of Mystery
-Temple of Mystery
 Island
+Forest
+Forest
+Forest
+Forest
+Once Upon a Time
+Breeding Pool
+Disdainful Stroke
+Disdainful Stroke
+Oko, Thief of Crowns
+Nissa, Who Shakes the World
+Wicked Wolf
+Wicked Wolf
+Questing Beast
+Paradise Druid
+Hydroid Krasis
+Hydroid Krasis
+Once Upon a Time
+Gilded Goose
+Once Upon a Time
+Island
+Temple of Mystery
+Forest
+Forest
+Forest
+Forest
+Breeding Pool
+Once Upon a Time
+Breeding Pool
+Nissa, Who Shakes the World
+Disdainful Stroke
+Oko, Thief of Crowns
+Nissa, Who Shakes the World
+Questing Beast
+Wicked Wolf
+Questing Beast
+Hydroid Krasis
+Paradise Druid
+Temple of Mystery
+Gilded Goose
+Island
+Island
+Forest
+Forest
+Forest
+Forest
+Breeding Pool
 
 [シャッフル4回目]
-[シャッフル種別:リフルシャッフル（パーフェクト）]
-Disdainful Stroke
-Gilded Goose
-Disdainful Stroke
-Gilded Goose
-Once Upon a Time
-Gilded Goose
-Once Upon a Time
-Gilded Goose
-Once Upon a Time
-Hydroid Krasis
-Once Upon a Time
-Hydroid Krasis
+[シャッフル種別:ヒンドゥーシャッフル]
 Breeding Pool
-Hydroid Krasis
-Breeding Pool
-Hydroid Krasis
-Breeding Pool
-Paradise Druid
-Breeding Pool
-Paradise Druid
 Forest
-Paradise Druid
 Forest
-Paradise Druid
 Forest
-Questing Beast
-Forest
-Questing Beast
-Forest
-Questing Beast
-Forest
-Questing Beast
-Forest
-Wicked Wolf
-Forest
-Wicked Wolf
-Forest
-Wicked Wolf
-Forest
-Wicked Wolf
-Forest
-Oko, Thief of Crowns
-Forest
-Oko, Thief of Crowns
 Island
-Oko, Thief of Crowns
+Forest
 Island
-Oko, Thief of Crowns
-Island
-Nissa, Who Shakes the World
-Island
-Nissa, Who Shakes the World
 Temple of Mystery
+Gilded Goose
+Hydroid Krasis
+Paradise Druid
+Wicked Wolf
+Questing Beast
 Nissa, Who Shakes the World
-Temple of Mystery
-Nissa, Who Shakes the World
-Temple of Mystery
+Questing Beast
 Disdainful Stroke
+Oko, Thief of Crowns
+Breeding Pool
+Nissa, Who Shakes the World
+Breeding Pool
+Once Upon a Time
+Forest
+Disdainful Stroke
+Oko, Thief of Crowns
+Nissa, Who Shakes the World
+Wicked Wolf
+Oko, Thief of Crowns
+Paradise Druid
+Questing Beast
+Paradise Druid
+Gilded Goose
+Hydroid Krasis
 Island
+Temple of Mystery
+Island
+Forest
+Forest
+Forest
+Forest
+Once Upon a Time
+Breeding Pool
 Disdainful Stroke
+Disdainful Stroke
+Oko, Thief of Crowns
+Nissa, Who Shakes the World
+Wicked Wolf
+Wicked Wolf
+Questing Beast
+Paradise Druid
+Hydroid Krasis
+Hydroid Krasis
+Once Upon a Time
+Gilded Goose
+Once Upon a Time
+Island
+Temple of Mystery
+Forest
+Forest
+Forest
 
 [シャッフル5回目]
-[シャッフル種別:リフルシャッフル（パーフェクト）]
-Forest
-Disdainful Stroke
-Questing Beast
-Gilded Goose
-Forest
-Disdainful Stroke
-Wicked Wolf
-Gilded Goose
-Forest
-Once Upon a Time
-Wicked Wolf
-Gilded Goose
-Forest
-Once Upon a Time
-Wicked Wolf
-Gilded Goose
-Forest
-Once Upon a Time
-Wicked Wolf
-Hydroid Krasis
-Forest
-Once Upon a Time
-Oko, Thief of Crowns
-Hydroid Krasis
-Forest
+[シャッフル種別:リフルシャッフル]
 Breeding Pool
-Oko, Thief of Crowns
-Hydroid Krasis
-Island
-Breeding Pool
-Oko, Thief of Crowns
-Hydroid Krasis
-Island
-Breeding Pool
-Oko, Thief of Crowns
-Paradise Druid
-Island
-Breeding Pool
-Nissa, Who Shakes the World
-Paradise Druid
-Island
 Forest
-Nissa, Who Shakes the World
-Paradise Druid
+Forest
 Temple of Mystery
 Forest
-Nissa, Who Shakes the World
-Paradise Druid
-Temple of Mystery
-Forest
-Nissa, Who Shakes the World
-Questing Beast
-Temple of Mystery
-Forest
-Disdainful Stroke
-Questing Beast
 Island
 Forest
+Island
+Forest
+Forest
+Forest
+Forest
+Island
+Temple of Mystery
+Once Upon a Time
+Gilded Goose
+Breeding Pool
 Disdainful Stroke
+Hydroid Krasis
+Disdainful Stroke
+Paradise Druid
+Oko, Thief of Crowns
+Wicked Wolf
 Questing Beast
+Nissa, Who Shakes the World
+Nissa, Who Shakes the World
+Questing Beast
+Wicked Wolf
+Disdainful Stroke
+Oko, Thief of Crowns
+Wicked Wolf
+Breeding Pool
+Questing Beast
+Paradise Druid
+Nissa, Who Shakes the World
+Breeding Pool
+Hydroid Krasis
+Once Upon a Time
+Hydroid Krasis
+Once Upon a Time
+Forest
+Gilded Goose
+Disdainful Stroke
+Oko, Thief of Crowns
+Once Upon a Time
+Nissa, Who Shakes the World
+Island
+Wicked Wolf
+Oko, Thief of Crowns
+Temple of Mystery
+Paradise Druid
+Questing Beast
+Forest
+Paradise Druid
+Gilded Goose
+Forest
+Forest
+Hydroid Krasis
+Island
 
 [シャッフル6回目]
-[シャッフル種別:リフルシャッフル（パーフェクト）]
-Oko, Thief of Crowns
+[シャッフル種別:リフルシャッフル]
+Breeding Pool
 Forest
+Forest
+Temple of Mystery
+Forest
+Island
+Forest
+Island
+Forest
+Forest
+Forest
+Forest
+Island
+Temple of Mystery
+Once Upon a Time
+Gilded Goose
+Breeding Pool
+Disdainful Stroke
 Hydroid Krasis
 Disdainful Stroke
-Island
-Questing Beast
-Breeding Pool
+Hydroid Krasis
+Once Upon a Time
+Paradise Druid
+Forest
 Gilded Goose
 Oko, Thief of Crowns
-Forest
-Paradise Druid
+Wicked Wolf
 Disdainful Stroke
+Oko, Thief of Crowns
+Questing Beast
+Nissa, Who Shakes the World
+Once Upon a Time
+Nissa, Who Shakes the World
+Nissa, Who Shakes the World
 Island
 Wicked Wolf
-Breeding Pool
-Gilded Goose
-Nissa, Who Shakes the World
-Forest
-Paradise Druid
-Once Upon a Time
-Island
-Wicked Wolf
-Forest
-Gilded Goose
-Nissa, Who Shakes the World
-Forest
-Paradise Druid
-Once Upon a Time
+Questing Beast
+Oko, Thief of Crowns
 Temple of Mystery
 Wicked Wolf
-Forest
-Gilded Goose
-Nissa, Who Shakes the World
-Forest
+Disdainful Stroke
 Paradise Druid
-Once Upon a Time
-Temple of Mystery
+Oko, Thief of Crowns
 Wicked Wolf
+Questing Beast
 Forest
-Hydroid Krasis
+Breeding Pool
+Questing Beast
+Paradise Druid
+Paradise Druid
+Gilded Goose
+Forest
 Nissa, Who Shakes the World
+Breeding Pool
 Forest
-Questing Beast
+Hydroid Krasis
+Hydroid Krasis
+Island
 Once Upon a Time
-Temple of Mystery
-Oko, Thief of Crowns
-Forest
-Hydroid Krasis
-Disdainful Stroke
-Forest
-Questing Beast
-Breeding Pool
-Island
-Oko, Thief of Crowns
-Forest
-Hydroid Krasis
-Disdainful Stroke
-Island
-Questing Beast
-Breeding Pool
 
 [シャッフル7回目]
-[シャッフル種別:ヒンドゥーシャッフル]
-Breeding Pool
-Questing Beast
-Disdainful Stroke
-Island
-Hydroid Krasis
-Forest
+[シャッフル種別:リフルシャッフル]
 Oko, Thief of Crowns
-Island
-Questing Beast
-Breeding Pool
+Wicked Wolf
 Disdainful Stroke
-Forest
-Hydroid Krasis
-Forest
-Temple of Mystery
 Oko, Thief of Crowns
 Questing Beast
+Nissa, Who Shakes the World
 Once Upon a Time
 Nissa, Who Shakes the World
+Nissa, Who Shakes the World
+Island
+Breeding Pool
+Wicked Wolf
+Questing Beast
 Forest
 Forest
-Hydroid Krasis
+Oko, Thief of Crowns
+Temple of Mystery
 Temple of Mystery
 Wicked Wolf
-Once Upon a Time
+Disdainful Stroke
 Forest
 Paradise Druid
-Nissa, Who Shakes the World
+Oko, Thief of Crowns
+Island
 Forest
-Gilded Goose
+Wicked Wolf
+Island
+Forest
+Questing Beast
+Forest
+Forest
+Forest
+Breeding Pool
+Forest
+Questing Beast
+Paradise Druid
+Island
 Temple of Mystery
-Wicked Wolf
 Paradise Druid
 Once Upon a Time
+Gilded Goose
+Forest
+Gilded Goose
+Breeding Pool
 Nissa, Who Shakes the World
-Forest
-Oko, Thief of Crowns
-Forest
+Disdainful Stroke
 Hydroid Krasis
-Disdainful Stroke
-Island
-Questing Beast
 Breeding Pool
-Gilded Goose
-Oko, Thief of Crowns
 Forest
-Paradise Druid
 Disdainful Stroke
-Island
-Wicked Wolf
-Breeding Pool
-Gilded Goose
-Nissa, Who Shakes the World
-Forest
-Paradise Druid
-Once Upon a Time
-Island
-Wicked Wolf
-Forest
-Gilded Goose
-
-[シャッフル8回目]
-[シャッフル種別:ヒンドゥーシャッフル]
-Forest
-Gilded Goose
-Island
-Wicked Wolf
-Paradise Druid
-Once Upon a Time
-Nissa, Who Shakes the World
-Forest
-Breeding Pool
-Gilded Goose
-Wicked Wolf
-Island
-Disdainful Stroke
-Paradise Druid
-Oko, Thief of Crowns
-Forest
-Gilded Goose
-Breeding Pool
-Island
-Questing Beast
-Disdainful Stroke
-Forest
 Hydroid Krasis
-Forest
-Oko, Thief of Crowns
-Once Upon a Time
-Nissa, Who Shakes the World
-Wicked Wolf
-Paradise Druid
-Breeding Pool
-Questing Beast
-Disdainful Stroke
-Island
 Hydroid Krasis
-Forest
-Oko, Thief of Crowns
-Island
-Questing Beast
-Breeding Pool
-Disdainful Stroke
-Forest
-Hydroid Krasis
-Forest
-Temple of Mystery
-Oko, Thief of Crowns
-Questing Beast
-Once Upon a Time
-Nissa, Who Shakes the World
-Forest
-Forest
-Hydroid Krasis
-Temple of Mystery
-Wicked Wolf
-Once Upon a Time
-Forest
-Paradise Druid
-Nissa, Who Shakes the World
-Forest
-Gilded Goose
-Temple of Mystery
-
-[シャッフル9回目]
-[シャッフル種別:ヒンドゥーシャッフル]
-Gilded Goose
-Temple of Mystery
-Nissa, Who Shakes the World
-Forest
-Forest
-Paradise Druid
-Wicked Wolf
-Once Upon a Time
-Hydroid Krasis
-Temple of Mystery
-Forest
-Forest
-Nissa, Who Shakes the World
-Questing Beast
-Once Upon a Time
-Temple of Mystery
-Oko, Thief of Crowns
-Hydroid Krasis
-Forest
-Disdainful Stroke
-Forest
-Questing Beast
-Breeding Pool
-Oko, Thief of Crowns
-Island
-Forest
-Hydroid Krasis
-Disdainful Stroke
-Island
-Forest
-Gilded Goose
-Island
-Wicked Wolf
-Paradise Druid
-Once Upon a Time
-Nissa, Who Shakes the World
-Forest
-Breeding Pool
-Gilded Goose
-Wicked Wolf
-Island
-Disdainful Stroke
-Paradise Druid
-Oko, Thief of Crowns
-Forest
-Gilded Goose
-Breeding Pool
-Island
-Questing Beast
-Disdainful Stroke
-Forest
-Hydroid Krasis
-Forest
-Oko, Thief of Crowns
-Once Upon a Time
-Nissa, Who Shakes the World
-Wicked Wolf
-Paradise Druid
-Breeding Pool
-Questing Beast
-
-[シャッフル10回目]
-[シャッフル種別:ヒンドゥーシャッフル]
-Breeding Pool
-Questing Beast
-Paradise Druid
-Nissa, Who Shakes the World
-Wicked Wolf
-Once Upon a Time
-Forest
-Oko, Thief of Crowns
-Hydroid Krasis
-Disdainful Stroke
-Forest
-Island
-Questing Beast
-Gilded Goose
-Breeding Pool
-Forest
-Paradise Druid
-Oko, Thief of Crowns
-Island
-Disdainful Stroke
-Gilded Goose
-Wicked Wolf
-Gilded Goose
-Temple of Mystery
-Nissa, Who Shakes the World
-Forest
-Forest
-Paradise Druid
-Wicked Wolf
-Once Upon a Time
-Hydroid Krasis
-Temple of Mystery
-Forest
-Forest
-Nissa, Who Shakes the World
-Questing Beast
-Once Upon a Time
-Temple of Mystery
-Oko, Thief of Crowns
-Hydroid Krasis
-Forest
-Disdainful Stroke
-Forest
-Questing Beast
-Breeding Pool
-Oko, Thief of Crowns
-Island
-Forest
-Hydroid Krasis
-Disdainful Stroke
-Island
-Forest
-Gilded Goose
-Island
-Wicked Wolf
-Paradise Druid
-Once Upon a Time
-Nissa, Who Shakes the World
-Forest
-Breeding Pool
-
-[シャッフル11回目]
-[シャッフル種別:ヒンドゥーシャッフル]
-Breeding Pool
-Nissa, Who Shakes the World
-Forest
-Once Upon a Time
-Paradise Druid
-Island
-Wicked Wolf
-Forest
-Gilded Goose
-Disdainful Stroke
-Island
-Forest
-Hydroid Krasis
-Island
-Oko, Thief of Crowns
-Breeding Pool
-Forest
-Questing Beast
-Forest
-Disdainful Stroke
-Oko, Thief of Crowns
 Hydroid Krasis
 Once Upon a Time
-Temple of Mystery
-Breeding Pool
-Questing Beast
 Paradise Druid
-Nissa, Who Shakes the World
-Wicked Wolf
+Island
 Once Upon a Time
 Forest
-Oko, Thief of Crowns
-Hydroid Krasis
-Disdainful Stroke
-Forest
-Island
-Questing Beast
 Gilded Goose
-Breeding Pool
-Forest
-Paradise Druid
-Oko, Thief of Crowns
-Island
-Disdainful Stroke
-Gilded Goose
-Wicked Wolf
-Gilded Goose
-Temple of Mystery
-Nissa, Who Shakes the World
-Forest
-Forest
-Paradise Druid
-Wicked Wolf
-Once Upon a Time
-Hydroid Krasis
-Temple of Mystery
-Forest
-Forest
-Nissa, Who Shakes the World
-Questing Beast
 
