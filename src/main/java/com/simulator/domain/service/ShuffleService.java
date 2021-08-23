@@ -57,24 +57,37 @@ public class ShuffleService {
      * <br>@return シャッフル処理後のデッキ情報
      */
     public List<String> doShuffle(List<String> deck, ShuffleForm shuffleForm, int sessionId) {
+        int number = Integer.parseInt(shuffleForm.getNumber());
         switch (shuffleForm.getShuffleType()) {
           case DEAL:
-              deck = doDeal(deck, Integer.parseInt(shuffleForm.getNumber()));
+              deck = doDeal(deck, number);
+              loggingService.shuffleLogging(deck, shuffleForm.getShuffleType());
+              insertShuffle(deck, shuffleForm, sessionId);
               break;
           case HINDU:
-              deck = doHindu(deck);
+              for (int i = 0; i < number; i++) {
+                  deck = doHindu(deck);
+                  loggingService.shuffleLogging(deck, shuffleForm.getShuffleType());
+                  insertShuffle(deck, shuffleForm, sessionId);
+              }
               break;
           case RIFFLE:
-              deck = doRiffle(deck, false);
+              for (int i = 0; i < number; i++) {
+                  deck = doRiffle(deck, false);
+                  loggingService.shuffleLogging(deck, shuffleForm.getShuffleType());
+                  insertShuffle(deck, shuffleForm, sessionId);
+              }
               break;
           case RIFFLE_PERFECT:
-              deck = doRiffle(deck, true);
+              for (int i = 0; i < number; i++) {
+                  deck = doRiffle(deck, true);
+                  loggingService.shuffleLogging(deck, shuffleForm.getShuffleType());
+                  insertShuffle(deck, shuffleForm, sessionId);
+              }
               break;
           default:
               break;
         }
-        loggingService.shuffleLogging(deck, shuffleForm.getShuffleType());
-        insertShuffle(deck, shuffleForm, sessionId);
         return deck;
     }
 
